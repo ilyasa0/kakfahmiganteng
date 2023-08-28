@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: #445566;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+        }
+
+        .title {
+            font-size: 4em;
+            margin: 40px;
+        }
+
+        .t1 {
+            text-transform: lowercase;
+            background-image: linear-gradient(-225deg,
+                    #231557 0%,
+                    #44107a 29%,
+                    #ff1361 67%,
+                    #fff800 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #445566;
+            background-clip: text;
+            -webkit-text-fill-color: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+            font-size: 90px;
+        }
+
+
+        .button {
+            margin: 20px;
+        }
+
+        .btn {
+            background: rgb(153, 119, 119);
+            padding: 10px 30px;
+            border-radius: 1000px;
+            color: #ffffff;
+            font-size: 2em;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: box-shadow 0.02s;
+
+        }
+        
+
+        @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1 class="t1">Welcome <br> To My <br> Portofolio</h1>
+        </div>
+        <div class="button">
+            <a href="home.html" class="btn">Go To My Portofolio</a>
+        </div>
+    </div>
+</body>
+
+</html>
